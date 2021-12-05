@@ -94,6 +94,9 @@ body {
 .clicked{
     color:#ffffff;
 }
+.details .card:hover{
+    background-color:var(--DesaturatedBlue);
+}
 @media screen and (min-width:786px){
     #root{
         display: grid;
