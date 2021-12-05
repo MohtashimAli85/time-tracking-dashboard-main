@@ -1,0 +1,45 @@
+
+.dFlex{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+ .info {
+    background-color: var(--DarkBlue);
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.title {
+    margin-bottom: 0.5rem;
+}
+
+.title h4 {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.time h3 {
+    font-weight: 300;
+    font-size: 1.9rem;
+}
+
+.time p {
+    color: var(--PaleBlue);
+    font-size: 16px;
+}
+@media screen and (min-width:786px){
+   .time{
+       flex-direction:column;
+       justify-content:unset;
+       align-items:unset;
+   }
+   .info{
+           padding: 26px 20px;
+   }
+   .time h3 {
+       font-size: 2.2rem;
+       margin-bottom:1rem;
+   }
+}
