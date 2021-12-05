@@ -9,7 +9,11 @@
     color: white;
     border-radius: 15px;
     padding: 20px;
+    cursor:pointer;
 }
+.info:hover {
+        background-color: var(--DesaturatedBlue);
+    }
 
 .title {
     margin-bottom: 0.5rem;
